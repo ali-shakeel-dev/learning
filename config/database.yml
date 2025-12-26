@@ -28,4 +28,5 @@ test:
 # is mounted as a persistent Docker volume in config/deploy.yml.
 production:
   url: <%= ENV["DATABASE_URL"] %>
+  adapter: postgresql
   
